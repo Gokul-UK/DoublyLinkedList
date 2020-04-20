@@ -1,0 +1,16 @@
+package doublyLinkedList;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		LinkedList ll = new LinkedList();
+		ll.insertEnd(1);
+		ll.insertEnd(2);
+		ll.insertEnd(3);
+		
+		DisplayList dl = new DisplayList();
+		dl.displayForward();
+	}
+
+}
