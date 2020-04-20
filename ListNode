@@ -1,0 +1,8 @@
+package doublyLinkedList;
+
+public class ListNode {
+	int data;
+	ListNode next;
+	ListNode previous;
+
+}
